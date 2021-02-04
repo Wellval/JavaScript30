@@ -13,7 +13,7 @@ function setDate() {
     let hours = date.getHours();
     let hourHand = document.querySelector('.hour-hand');
     let hourDegree = ((hours / 12) * 360) + 90;
-    hourHand.style.transform = `rotate(${secondDegree}deg)`;
+    hourHand.style.transform = `rotate(${hourDegree}deg)`;
 
     let hands = document.querySelectorAll('.hand');
     for (let hand of hands) {
