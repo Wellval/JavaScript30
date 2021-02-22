@@ -42,6 +42,14 @@ body {
   width: 100%;
 }
 
+.fullscreen {
+  color: black;
+}
+
+.fullscreen:hover {
+  cursor: pointer;
+}
+
 .player__button {
   background: none;
   border: 0;
